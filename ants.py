@@ -186,6 +186,7 @@ class ThrowerAnt(Ant):
         This method returns None if there is no such Bee (or none in range).
         """
         # BEGIN Problem 3 and 4
+        tets
         cur_place = self.place
         while cur_place is not None:
             if cur_place.is_hive == False and len(cur_place.bees)>0:
